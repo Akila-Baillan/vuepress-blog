@@ -3,25 +3,21 @@
     <div class="cardpage" style="padding-bottom: 40px;">
       <el-card shadow="always" :body-style="{ padding: '0px' }" class="box-card">
         <img
-          src="https://finen-1251602255.cos.ap-shanghai.myqcloud.com/blog/home/hero.png"
+          src="/church_s.png"
           class="image"
         >
         <div class="nickname">
-          <span class="nick">Finen</span>
+          <span class="nick">P & L</span>
         </div>
         <div style="padding: 16px;" class="motto">
-          <span>Stay Hungry, Stay Foolish!</span>
+          <span>The wedding will take place on January 19, 2020.</span>
         </div>
-        <el-row class="funct-button" style="padding: 20px;">
-          <el-button round @click="openPage('https://github.com/hirCodd')">Github</el-button>
-          <el-button round @click="openPage('https://blog.csdn.net/HookJony')">CSDN</el-button>
-        </el-row>
       </el-card>
     </div>
 
     <hr>
     <div class="footer">
-      <p>Copyright © 2017-2019 Finen</p>
+      <p>我有一轮月，能跨山海隔。</p>
     </div>
   </div>
 </template>
@@ -32,9 +28,9 @@ export default {
     return {};
   },
   methods: {
-    openPage(url) {
-      window.open(url);
-    }
+    // openPage(url) {
+    //   window.open(url);
+    // }
   }
 };
 </script>
@@ -58,6 +54,7 @@ export default {
       "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
     font-weight: 700;
     font-size: 22px;
+    color: #e89224;
   }
   .motto span {
     font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
@@ -70,12 +67,12 @@ export default {
   .image {
     margin-top: 20px;
     margin-bottom: 30px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    /* width: 250px; */
+    height: 260px;
+    border-radius: 5px;
   }
   .box-card {
-    width: 400px;
+    width: 500px;
   }
   .footer {
     height: 5%;
@@ -83,6 +80,8 @@ export default {
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #e89224;
+    font-size: 14px;
   }
 }
 

@@ -3,10 +3,10 @@ const container = require('markdown-it-container')
 
 module.exports = {
   dest: 'vuepress',
-  title: "Finen",
-  description: 'Stay Hungry! Stay Foolish!',
+  title: "沐糖 (づ｡◕ ౩ ◕｡)づ",
+  description: 'Enjoy whatever it comes.',
   head: [
-    ['link', { rel: 'icon', href: `/logo.png` }],
+    ['link', { rel: 'icon', href: `icon_mushroom.jpg` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
