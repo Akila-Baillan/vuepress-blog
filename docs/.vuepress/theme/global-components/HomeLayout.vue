@@ -1,6 +1,6 @@
 <template>
   <div class="home-main-page">
-    <div class="cardpage" style="padding-bottom: 40px;">
+    <div class="cardpage" style="padding-bottom: 88px;">
       <el-card shadow="always" :body-style="{ padding: '0px' }" class="box-card">
         <img
           src="/church_s.png"
